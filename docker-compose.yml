@@ -39,7 +39,8 @@ services:
     volumes_from:
     - box
 
-  box:  image: yappabe/mailcatcher
+  box:  
+    image: yappabe/mailcatcher
     ports:
       - 1025:1025
       - 1080:1080
